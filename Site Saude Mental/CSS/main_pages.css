@@ -1,0 +1,161 @@
+
+.banner-interna {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-interna img {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    color: #515978;
+}
+
+.sidebar-menu {
+    /* flex: 1; */
+    width: auto;
+    height: auto;
+    margin: 15px;
+    font-family: "Manjari", sans-serif;
+    
+}
+
+.sidebar-menu h2{
+    font-weight: 400;
+}
+
+.sidebar-menu p{
+    list-style: none;   
+    padding: 15px;
+    margin: 0;
+    border-bottom: 2px solid #515978;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.8s;
+}
+
+.sidebar-menu p:hover{
+    background-color: #b1b6f0;
+    
+}
+
+.main-links{
+    text-decoration: none;
+    color: #515978;
+    font-weight: 500;
+}
+
+.main-links:hover{
+    font-weight: 600;
+}
+
+.card {
+    flex: 1;
+    width: 220px;
+    height: 120px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #F8DBDF;
+    border-radius: 8px;
+    text-align: center;
+    text-shadow: 1.2px 1px 0 #888de8;
+    font-family: "Roboto", sans-serif;
+    color: #B0B3F1;
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 4px;
+}
+
+.card p {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.content {
+    flex: 2;
+    margin-left: 40px;
+    font-family: "Manjari", sans-serif;
+}
+
+h1, h2{
+    font-weight: 600;
+    text-align: center;
+}
+
+.h3{
+    font-weight: 600;
+}
+
+p, li{
+    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
+ul{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+a{
+    color: #515978;
+}
+
+.content a:hover{
+    color: #b1b6f0;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 55px;
+
+    font-size: 25px;
+    color: #000;
+    background-color: #b1b6f0;
+    border-color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #F8DBDF;
+}
+
+.myth{
+    color: #e05a48;
+}
+
+.true{
+    color: #5f998c;
+}
+
+
+
